@@ -1,5 +1,5 @@
 // Derek Wang last made edit
-
+// Testing edit 1. Leo Chen 8/24
 
 public class gameControl {
 
