@@ -22,4 +22,6 @@ public class gameUnit {
    public gameUnit() {
       this("Minion", 1, 100, 100);
    }
+
+   // TODO Make other shit that goes in here
 }
