@@ -23,8 +23,8 @@
       <file leaf-file-name="gameControl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gameControl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="170">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding>
                 <element signature="e#0#260#0" expanded="true" />
               </folding>
@@ -468,8 +468,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gameControl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
             <element signature="e#0#260#0" expanded="true" />
           </folding>
