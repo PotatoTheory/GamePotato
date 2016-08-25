@@ -17,10 +17,10 @@ public class gameUnit {
     */
 
     // This is the generic constructor for the minion
-    public gameUnit(String name, int level, int max_hp, int current_hp, int attack, int defense) {
+    public gameUnit(String name/*, int level*/, int max_hp, int attack, int defense) {
         this.name = name;
         this.max_hp = max_hp;
-        this.current_hp = current_hp;
+        this.current_hp = max_hp; //When created, current = max hp
         this.attack = attack;
         this.defense = defense;
         //this.level = level;
@@ -28,35 +28,43 @@ public class gameUnit {
 
     // This is a constructor that contains no arguments (typical gameUnit creation)
     public gameUnit() {
-        this("Minion", 1, 100, 100, 15, 15);
+        this("Minion", 100, 15, 15);
     }
 
-    public void attack(gameUnit enemy) {
-
-    }
-
+    // Takes damage based on the enemy unit's attack minus this unit's defense
     public void defend(gameUnit enemy) {
-
+        if (defense < enemy.getAttack()) {
+            current_hp -= (enemy.getAttack() - defense);
+        }
     }
 
+    // Changes the name of the unit to the given name
     public void rename(String newName) {
         name = newName;
     }
 
+    // Returns the name of the unit
     public String getName() {
         return name;
     }
 
+    // Returns the current HP of the unit
     public int getHp() {
         return current_hp;
     }
 
+    // Returns the max hp of the unit
     public int getMaxHp() {
         return max_hp;
     }
 
+    // Returns the attack power of the unit
     public int getAttack() {
         return attack;
     }
 
+    // Returns the defensive power of the unit
+    public int getDefense() {
+        return defense;
+    }
 }

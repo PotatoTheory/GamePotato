@@ -9,33 +9,42 @@ public class gameMain {
 
    // Main method of the game
    public static void main(String[] args) {
-       // Create Game Unit
-       gameUnit firstBorn = new gameUnit();
        /**
         Crappy placeholder code following:
         */
+       Scanner input = new Scanner(System.in);
        gameMap map = new gameMap();
        gameInterface ui = new gameInterface();
+       gameUnit boss = new gameUnit();
+       gameUnit mc = new gameUnit();
+       boolean running = true;
+
        while(running) {
-           create main character;
-           create boss monster;
-
-            do things;
+            if (mc.getHp() > 0) {
+                running = true; //Replace with gameplay
+            } else {
+                running = ui.askRevive(input); //If the player revives, continue running
+            }
        }
-       end();
+       end(ui, map);
 
    }
 
-   private void end() {
+   // Calls saveData to output game state to a file, closes ui, closes map
+   private static void end(gameInterface ui, gameMap map) {
        saveData();
-       close interface;
-       close map;
+       ui.close(); //Unsure if necessary
+       map.close(); //Unsure if necessary
    }
 
-   private void saveData() {
-       store character changes;
-       store character position;
-       store npc changes;
-       store npc positions;
+   // Outputs the current game state to a file
+   private static void saveData() {
+       //store character changes;
+       //store character position;
+       //store npc changes;
+       //store npc positions;
+       // ^
+       // |
+       //Print all this out to some file
    }
 }
