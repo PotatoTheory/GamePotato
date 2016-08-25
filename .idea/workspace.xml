@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8754430-38cf-4ea4-860c-a0c499fa7f1a" name="Default" comment="" />
+    <list default="true" id="f8754430-38cf-4ea4-860c-a0c499fa7f1a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/minion.java" afterPath="$PROJECT_DIR$/gameUnit.java" />
+    </list>
     <ignored path="GamePotato.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,13 +33,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="minion.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/minion.java">
+      <file leaf-file-name="gameUnit.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gameUnit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="204">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="25" />
               <folding>
-                <element signature="e#0#389#0" expanded="true" />
+                <element signature="e#0#705#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,8 +62,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.java" />
-        <option value="$PROJECT_DIR$/minion.java" />
         <option value="$PROJECT_DIR$/gameControl.java" />
+        <option value="$PROJECT_DIR$/minion.java" />
+        <option value="$PROJECT_DIR$/gameUnit.java" />
       </list>
     </option>
   </component>
@@ -457,12 +463,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/minion.java">
+    <entry file="file://$PROJECT_DIR$/gameUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="204">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="25" />
           <folding>
-            <element signature="e#0#389#0" expanded="true" />
+            <element signature="e#0#705#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
           </folding>
         </state>
       </provider>
