@@ -30,24 +30,41 @@ public class gameInterface {
         }
     }
     */
+    // Asks the user whether or not they want to revive after death, using the given scanner
+    public boolean askRevive(Scanner input) {
+        while (true) {
+            System.out.println("Do you want to revive? Y or N - Case insensitive.");
+            String next = input.nextLine().toLowerCase();
+            if (next.equals("y")) {
+                return true;
+            } else if (next.equals("n")) {
+                return false;
+            }
+        }
+    }
 
+    // Confirms an action after an actionListener was activated
     public void confirm() {
-        confirm action;
+        //confirm action;
     }
 
+    // Cancels an action after an actionListener was activated
     public void cancel() {
-        return to previous screen;
+        //return to previous screen;
     }
 
+    // Opens the menu after an actionListener was activated
     public void menu() {
-        loadMenu();
+        //loadMenu();
     }
 
+    // Makes the game fullscreen after an actionListener was activated
     public void fullscreen() {
-        turn fullscreen(); //I think this is already automatically implemented tbh
+        //turn fullscreen(); //I think this is already automatically implemented tbh
     }
 
-    public void quit() {
-        called by gameMain when game is closing;
+    // Closes the UI after an actionListener was activated
+    public void close() {
+        //called by gameMain when game is closing;
     }
 }
