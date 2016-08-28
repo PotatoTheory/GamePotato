@@ -25,6 +25,8 @@ public class gameMain {
             } else {
                 running = ui.askRevive(input); //If the player revives, continue running
             }
+            System.out.println("Test complete.");
+            running = false;
        }
        end(ui, map);
 
