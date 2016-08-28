@@ -26,7 +26,9 @@ public class bag {
     }
 
     public void addItem(gameItem addition) {
-
+        if (storage.length < MAX_CAPACITY) {
+            storage[storage.length] = addition;
+        }
     }
 
     public void removeItem(gameItem removal) {
