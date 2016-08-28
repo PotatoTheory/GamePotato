@@ -6,7 +6,6 @@
 import java.io.*;
 import java.util.*;
 public class gameMain {
-
    // Main method of the game
    public static void main(String[] args) {
        /**
