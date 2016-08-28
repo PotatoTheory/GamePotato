@@ -6,7 +6,7 @@
             Enter
             Arrow keys?
             Other keys as necessary
-    No actual buttons, all interactable objects are part of gameMap
+    No actual buttons, all objects that can be interacted with are part of gameMap
     When an input is detected, use gameInterface methods to produce output.
  */
 import java.io.*;
